@@ -1,0 +1,37 @@
+{
+    "__NOTE": "If you need help with the config, check out config-help.md!",
+    "instance_info":{
+        "name": "LunarRec",
+        "description": "A LunarRec Instance",
+        "owner": "Instance Owner",
+        "website": "https://example.com"
+    },
+    "logConnections": false,
+    "debugOutput": false,
+    "serverAddress":"http://localhost:2017",
+    "targetVersion": null,
+    "customPosters": false,
+    "allow2016AndEarly2017": false,
+    "clearImageCacheOnLaunch": true,
+    "port": 2017,
+    "token_signature":"LunarRec_ReplaceMeWithSomethingElsePlz",
+    "webhook":{
+        "console": "",
+        "reports": ""
+    },
+    "discord_bot":{
+        "enabled": false,
+        "token":"TOKEN.HERE",
+        "clientID":"1234567890",
+        "serverID":"1234567890",
+        "instanceOwnerID":"284804878604435476",
+        "status": {
+            "type": "PLAYING",
+            "activity": "LunarRec"
+        }
+    },
+    "rateLimits":{
+        "maxRequests": 50,
+        "window": 60000
+    }
+}
